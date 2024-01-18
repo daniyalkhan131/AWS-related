@@ -4,7 +4,7 @@ from joblib import load
 from pydantic import BaseModel
 
 app = FastAPI()
-
+#hgvch
 class PredictionInput(BaseModel): #we create class for input passing and inherit 
     #basemodel of pydantic
     # Define the input parameters required for making predictions
